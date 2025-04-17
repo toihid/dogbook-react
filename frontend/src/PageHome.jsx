@@ -26,9 +26,11 @@ const ringCss = defineStyle({
 function PageHome() {
   const [dogs, setDogs] = useState([]);
 
+  const baseUrl = "https://dogbook-react-backend.vercel.app/dogs";
+
   const fetchUsers = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/dogs");
+      const res = await axios.get(baseUrl);
       setDogs(res.data); // assumes the API returns an array of users
     } catch (err) {
       console.error("Failed to fetch users:", err);
