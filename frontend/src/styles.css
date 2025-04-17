@@ -1,0 +1,64 @@
+body {
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-position: top left;
+  min-height: 100vh; /* Optional: Ensure the div covers the whole viewport */
+  font-size: 1.5rem;
+}
+form label {
+  font-size: 1.3rem;
+}
+.css-umofme {
+  background: none !important;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  min-height: 500px;
+}
+.newDogContainer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 40px;
+}
+
+.newDogContainer input {
+  height: 50px !important;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.newDogContainer textarea {
+  margin: 10px 0;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.newDogContainer input::placeholder {
+  color: #fff;
+  font-style: italic; /* Optional: Change the font style */
+  font-size: 1.3rem;
+}
+.newDogContainer textarea::placeholder {
+  color: #fff;
+  font-style: italic; /* Optional: Change the font style */
+  font-size: 1.3rem;
+}
+
+/* desing for profile page */
+.profile-page {
+  color: #fff;
+}
+.profile-page .field-name {
+  width: 15%;
+}
+.profile-page .field-value {
+  width: 85%;
+  border: 1px solid #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.friend-url:hover {
+  color: #14b8a6;
+}
